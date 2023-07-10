@@ -1,0 +1,542 @@
+.header{
+    position: fixed;top: 0px;left: 0px;right: 0px;
+    height: 45px;
+    background-color: rgb(67, 67, 67);
+    margin: 0px;
+    z-index:100;
+}
+.applelogo{
+    position: absolute;left: 261px;
+    top: 8px;height: 28px;
+    cursor: pointer;
+}
+.store{
+    position:absolute; left: 317px; top: 11px;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    border: solid;
+    border-color: rgb(67, 67, 67);
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.mac{
+    position:absolute; left:387px; top: 12px;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    border: solid;
+    border-color: rgb(67, 67, 67);
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.iPad{
+    position:absolute; left:450px; top: 12px;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    border: solid;
+    border-color: rgb(67, 67, 67);
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.iPhone{
+    position:absolute; left:515px; top: 12px;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    border: solid;
+    border-color: rgb(67, 67, 67);
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.watch{
+    position:absolute; left:595px; top: 12px;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    border: solid;
+    border-color: rgb(67, 67, 67);
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.airpod{
+    position:absolute; left:672px; top: 12px;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    border: solid;
+    border-color: rgb(67, 67, 67);
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.tv{
+    position:absolute; left:756px; top: 12px;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    border: solid;
+    border-color: rgb(67, 67, 67);
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.entertain{
+    position:absolute; left:860px; top: 12px;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    border: solid;
+    border-color: rgb(67, 67, 67);
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.access{
+    position:absolute; left:980px; top: 12px;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    border: solid;
+    border-color: rgb(67, 67, 67);
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.support{
+    position:absolute; left:1086px; top: 12px;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    border: solid;
+    border-color: rgb(67, 67, 67);
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.search{
+    position:absolute; left:1175px; top: 11px;
+    height: 22px; width: 22px;
+    cursor: pointer;
+}
+.bag{
+    position:absolute; left:1232px; top: 10px;
+    height: 22px; width: 20px;
+    cursor: pointer;
+}
+.discount{
+    position: relative; top: 46px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight: lighter;
+    text-align: center;
+}
+.shop:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.iphone14{
+    position:absolute;left: 0px;right: 0px; top: 89px;
+    height: 578px;
+    width: 1950;
+    margin: 0px;
+    cursor: pointer;
+}
+.phones{
+    position:absolute;left: 0px;right: 0px; top: 667px;
+    height: 600px;
+    width: 1515px;
+    margin: 0px;
+    cursor: pointer;
+}
+.iwatch{
+    position:absolute;left: 0px;right: 0px; top: 1270px;
+    height: 600px;
+    width: 1521px;
+    margin: 0px;
+    cursor: pointer;
+}
+.grid-container1{
+    display: grid;
+    grid-auto-flow:row;
+    position: relative;top:1830px;
+    grid-template:max-content;
+    grid-template-rows: 2;
+    grid-template-columns: 3;
+    cursor: pointer;
+}
+.box5{
+    margin-top: 5px;
+}
+.grid-container2{
+    position:absolute;right: 0px; top: 1880px;
+    cursor: pointer;
+}
+.box4{
+    padding-top: 8px;
+}
+.box6{
+    padding-top: 6px;
+}
+.banner1,.banner2,.banner3,.banner4{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 510%;
+    left: -90px;
+}
+.img{
+    width: 1500px;
+    height: 600px;
+    position: relative;
+    top: 300px;
+    left: 0px;
+    transform: translate(100px,100px);
+}
+.img:hover{
+    cursor: pointer;
+}
+.banner1{
+    animation: slide1 5s  linear infinite;
+    }
+    .banner2{
+        animation: slide2 5s  linear infinite;
+        }
+        .banner3{
+            animation: slide3 5s  linear infinite;
+            }
+            .banner4{
+                animation: slide4 5s  linear infinite;
+                }
+@keyframes slide1{
+0%{
+    visibility: visible;    
+}
+25%{
+    visibility: hidden;    
+}
+50%{
+    visibility: hidden;    
+}
+75%{
+    visibility: hidden;    
+}
+100%{
+    visibility: hidden;    
+}
+}            
+
+@keyframes slide2{
+    0%{
+        visibility: hidden;    
+    }
+    25%{
+        visibility: hidden;    
+    }
+    50%{
+        visibility: visible;    
+    }
+    75%{
+        visibility: hidden;    
+    }
+    100%{
+        visibility: hidden;    
+    }
+    }      
+    
+    @keyframes slide3{
+        0%{
+            visibility: hidden;    
+        }
+        25%{
+            visibility: hidden;    
+        }
+        50%{
+            visibility: hidden;    
+        }
+        75%{
+            visibility: visible;    
+        }
+        100%{
+            visibility: hidden;    
+        }
+        }                
+
+        @keyframes slide4{
+            0%{
+                visibility: hidden;    
+            }
+            25%{
+                visibility: hidden;    
+            }
+            50%{
+                visibility: hidden;    
+            }
+            75%{
+                visibility: hidden;    
+            }
+            100%{
+                visibility: visible;    
+            }
+            }  
+
+
+
+
+.dots{
+    position: relative;top: 2420px;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(215, 215, 215);
+    text-align: center;
+    cursor: pointer;
+}
+.paragraph{
+    position: absolute; top: 4300px; left: 350px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(113, 113, 113);
+}
+.one{
+    position: absolute; top: 4300px; left: 335px;   
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(113, 113, 113);
+}
+.shopandlearn{
+    position: absolute; top: 4400px; left: 335px;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.shoplist{
+    position: absolute; top: 4415px; left: 300px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(74, 74, 74); 
+}
+.l1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.applewallet{
+    position: absolute; top: 4665px; left: 335px;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+
+}
+.walletlist{
+    position: absolute; top: 4680px; left: 300px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(74, 74, 74);
+}
+.walletlist:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.accountlist{
+    position: absolute; top: 4402px; left: 485px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(42, 42, 42);
+    border: none;
+    font-weight: bold;
+}
+.accountul{
+    position: absolute; top: 4410px; left: 450px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(42, 42, 42);
+}
+.enter{
+    position: absolute; top: 4500px; left: 485px;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.enterlist{
+    position: absolute; top: 4515px; left: 450px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(74, 74, 74); 
+}
+.applestore{
+    position: absolute; top: 4400px; left: 655px;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.aslist{
+    position: absolute; top: 4415px; left: 620px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(74, 74, 74);  
+    border: none
+}
+.business{
+    position: absolute; top: 4400px; left: 820px;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.blist{
+    position: absolute; top: 4415px; left: 785px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(74, 74, 74); 
+    border: none
+}
+.education{
+    position: absolute; top: 4450px; left: 821px;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.edlist{
+    position: absolute; top: 4465px; left: 788px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(74, 74, 74); 
+    border: none
+}
+.health{
+    position: absolute; top: 4550px; left: 823px;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.healthlist{
+    position: absolute; top: 4565px; left: 790px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(74, 74, 74); 
+    border: none
+}
+.values{
+    position: absolute; top: 4400px; left: 980px;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.valuelist{
+    position: absolute; top: 4417px; left: 950px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(74, 74, 74); 
+    border: none
+}
+.about{
+    position: absolute; top: 4550px; left: 983px;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.aboutlist{
+    position: absolute; top: 4567px; left: 950px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(74, 74, 74); 
+    border: none  
+}
+.shoptext{
+    position: absolute; top: 4740px; left:339px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(105, 105, 105); 
+}
+.copyright{
+    position: absolute; top: 4765px; left:339px;
+    font-size: x-small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(104, 104, 104); 
+}
+.privacy{
+    position: absolute; top: 4770px; left:579px;
+    font-size: small;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.privacy:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.line{
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.termsofuse{
+    position: absolute; top: 4770px; left:669px;
+    font-size: small;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.termsofuse:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sales{
+    position: absolute; top: 4770px; left:760px;
+    font-size: small;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.sales:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.legal{
+    position: absolute; top: 4770px; left:850px;
+    font-size: small;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none;
+}
+.legal:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.site{
+    position: absolute; top: 4770px; left:900px;
+    font-size: small;
+    font-weight: lighter;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0); 
+    border: none; 
+}
+.site:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.india{
+    position:absolute; top: 4770px; right: 300px;
+    font-size: x-small;
+    border: none;
+}
+.india:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

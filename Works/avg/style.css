@@ -1,0 +1,548 @@
+.avg{
+    position: relative;
+    top:4px;
+    height: 60px;
+    width: 105px;
+    left: 120px;
+
+}
+.cl{
+    position: absolute;top: 147px;left: 546px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+}
+.pl{
+    position: absolute;top: 245px;left: 488px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+    color: rgb(93, 92, 92);
+}
+.freedownload1{
+    position: absolute;
+    top: 322px;
+    height: 67px;
+    width: 230px;
+    left: 511px;
+    cursor: pointer;
+    background-color: rgb(4, 147, 75);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    box-shadow: 0px 5px 32px rgb(78, 179, 137);
+}
+.freedownload1:hover{
+    background-color: rgb(5, 114, 59);
+}
+
+.buynow1{
+    position: absolute;
+    top: 322px;
+    height: 67px;
+    width: 210px;
+    left: 790px;
+    cursor: pointer;
+    background-color: rgb(73, 110, 183);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    box-shadow: 0px 5px 20px rgb(73, 110, 183);
+}
+.buynow1:hover{
+    background-color: rgb(89, 129, 209);
+}
+
+.basic{
+    position: absolute;top: 405px;left: 578px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;    
+    font-weight: lighter;
+    color: rgb(123, 118, 118);
+    cursor: pointer;
+}
+.full{
+    position: absolute;top: 400px;left: 830px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(123, 118, 118);
+    cursor: pointer;
+}
+   
+
+.protect{
+    position: absolute;top: 350px;left: 310px;
+    height: 485px;
+    top: 470px;
+    width: 900px;
+}
+.protect:hover{
+    cursor: pointer;
+}
+.choose{
+    position: absolute;top: 970px;left: 525px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
+.antivirus{
+    position: absolute;top: 1100px;left: 680px;
+    font-size:large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.essent{
+    position: absolute;top: 1150px;left: 680px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(28, 148, 28)
+}
+.internet{
+    position: absolute;top: 1100px;left: 1010px;
+    font-size:large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.best{
+    position: absolute;top: 1150px;left: 1010px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(4, 147, 203)
+}
+.text1{
+    position: absolute;top: 1250px;left:250px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+}
+.tickgreen1{
+    position: absolute;top: 1250px;left:800px;
+    font-size:larger;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(20, 137, 65)
+
+}
+.tickblue1{
+    position: absolute;top: 1250px;left:1130px;
+    font-size:larger;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+
+}
+.text2{
+    position: absolute;top: 1310px;left:250px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+
+}
+.tickgreen2{
+    position: absolute;top: 1310px;left:800px;
+    font-size:larger;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(20, 137, 65)
+
+}
+.tickblue2{
+    position: absolute;top: 1310px;left:1130px;
+    font-size:larger;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+
+}
+.text3{
+    position: absolute;top: 1368px;left:250px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+
+}
+.tickgreen3{
+    position: absolute;top: 1368px;left:800px;
+    font-size:larger;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(20, 137, 65)
+
+}
+.tickblue3{
+    position: absolute;top: 1368px;left:1130px;
+    font-size:larger;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+
+}
+
+.text4{
+    position: absolute;top: 1413px;left:250px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+
+}
+.tickgreen4{
+    position: absolute;top: 1412px;left:800px;
+    font-size:larger;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(20, 137, 65)
+
+}
+.tickblue4{
+    position: absolute;top: 1412px;left:1130px;
+    font-size:larger;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+
+}
+.text5{
+    position: absolute;top: 1460px;left:250px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;   
+    color:rgb(6, 121, 144)
+}
+.tickblue5{
+    position: absolute;top: 1460px;left:1130px;
+    font-size:larger;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+}
+.text6{
+    position: absolute;top: 1522px;left:250px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;   
+    color:rgb(6, 121, 144)
+}
+.tickblue6{
+    position: absolute;top: 1515px;left:1130px;
+    font-size:larger;                                                                                                                                                                           
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+}
+.text7{
+    position: absolute;top: 1565px;left:250px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;   
+    color:rgb(6, 121, 144)
+}
+.tickblue7{
+    position: absolute;top: 1560px;left:1130px;
+    font-size:larger;                                                                                                                                                                           
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+}
+.text8{
+    position: absolute;top: 1610px;left:250px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;   
+    color:rgb(6, 121, 144)
+}
+.tickblue8{
+    position: absolute;top: 1610px;left:1130px;
+    font-size:larger;                                                                                                                                                                           
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+}
+.text9{
+    position: absolute;top: 1658px;left:250px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;   
+    color:rgb(6, 121, 144)
+}
+.tickblue9{
+    position: absolute;top: 1660px;left:1130px;
+    font-size:larger;                                                                                                                                                                           
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+}
+.text10{
+    position: absolute;top: 1700px;left:250px;
+    font-size:bolder;
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;   
+    color:rgb(6, 121, 144)
+}
+.tickblue10{
+    position: absolute;top: 1705px;left:1130px;
+    font-size:larger;                                                                                                                                                                           
+    font-style:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(6, 121, 144)
+}
+.download{
+    position: absolute;top: 1780px;left:750px;
+    height: 45px;width: 150px; 
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 118, 3);
+    color:rgb(244, 250, 246);
+}
+.download:hover{
+    background-color: rgb(1, 101, 1);
+    cursor: pointer;
+}
+.buy{
+    position: absolute;top: 1780px;left:1050px;
+    height: 45px;width: 150px; 
+    border-radius: 5px;
+    background-color: rgb(72, 95, 224);
+    border: none;
+    color: white;
+}
+.buy:hover{
+    background-color: rgb(90, 113, 240);
+    cursor: pointer;
+}
+.trial{
+    font-size: x-small;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;top: 1830px;left:1040px;
+    color: rgb(65, 65, 65);
+}
+.subscription{
+    position: absolute; top: 2000px;left: 50px;
+    width: 1400px;
+}
+.protection{
+    position: absolute; top: 2700px;left: 500px;
+    font-size: 40px;
+    color: rgb(37, 37, 55);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.award{
+    position: absolute; top: 2800px;left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(60, 60, 82);
+    text-align: center;
+}
+.avgimg{
+    position: absolute; top: 2870px;left: 250px;
+    height: 30px;width: 60px;
+}
+.avgimg2{
+    position: absolute; top: 2870px;left: 500px;
+    height: 35px;width: 35px;
+}
+.avgimg3{
+    position: absolute; top: 2870px;left: 800px;
+    height: 35px;width: 65px;
+}
+.avgimg4{
+    position: absolute; top: 2870px;left: 1050px;
+    height: 30px;width: 60px;
+}
+.name1{
+    position: absolute; top: 2900px;left: 250px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.name2{
+    position: absolute; top: 2900px;left: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name3{
+    position: absolute; top: 2900px;left: 800px;
+    color: black;
+}
+.name4{
+    position: absolute; top: 2900px;left: 1050px;
+}
+.rate1{
+    position: absolute; top: 2930px;left: 250px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(160, 160, 160);
+    font-weight: bold;
+}
+.rate2{
+    position: absolute; top: 2930px;left: 500px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(160, 160, 160);
+    font-weight: bold;
+}
+.rate3{
+    position: absolute; top: 2930px;left: 800px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(160, 160, 160);
+    font-weight: bold;
+}
+.rate4{
+    position: absolute; top: 2930px;left: 1050px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(160, 160, 160);
+    font-weight: bold;
+}
+.end{
+    position: absolute; top: 3000px;left: 0px;
+    height: 120px;
+    width: 1519px;
+    background-color: rgb(30, 30, 43);
+}
+.button1{
+    position: relative; top: 50px;left: 200px;
+    border: none;
+    font-size: small;
+    background-color:rgb(30, 30, 43);
+    color:rgb(148, 148, 204);
+}
+.btn1:hover{
+    text-decoration: underline;
+}
+.button2{
+    position: absolute; top: 52px;left: 255px;
+    border: none;
+    font-size: small;
+    background-color:rgb(30, 30, 43);
+    color:rgb(148, 148, 204);
+}
+.btn2:hover{
+    text-decoration: underline;
+}
+.button3{
+    position: absolute; top: 52px;left: 380px;
+    border: none;
+    font-size: small;
+    background-color:rgb(30, 30, 43);
+    color:rgb(148, 148, 204);
+}
+.btn3:hover{
+    text-decoration: underline;
+}
+    .button4{
+        position: absolute; top: 52px;left: 490px;
+        border: none;
+        font-size: small;
+        background-color:rgb(30, 30, 43);
+        color:rgb(148, 148, 204);
+    }
+    .btn4:hover{
+        text-decoration: underline;
+    }
+
+
+    .button5{
+        position: absolute; top: 52px;left: 620px;
+        border: none;
+        font-size: small;
+        background-color:rgb(30, 30, 43);
+        color:rgb(148, 148, 204);
+    }
+    .btn5:hover{
+        text-decoration: underline;
+    }
+
+
+    .button6{
+        position: absolute; top: 52px;left: 788px;
+        border: none;
+        font-size: small;
+        background-color:rgb(30, 30, 43);
+        color:rgb(148, 148, 204);
+    }
+    .btn6:hover{
+        text-decoration: underline;
+    }
+
+
+
+    .button7{
+        position: absolute; top: 52px;left: 850px;
+        border: none;
+        font-size: small;
+        background-color:rgb(30, 30, 43);
+        color:rgb(148, 148, 204);
+    }
+    .btn7:hover{
+        text-decoration: underline;
+    }
+
+    
+    .button8{
+        position: absolute; top: 52px;left: 995px;
+        border: none;
+        font-size: small;
+        background-color:rgb(30, 30, 43);
+        color:rgb(148, 148, 204);
+    }
+    .btn8:hover{
+        text-decoration: underline;
+    } 
+    
+
+    .button9{
+        position: absolute; top: 52px;left: 1167px;
+        border: none;
+        font-size: small;
+        background-color:rgb(30, 30, 43);
+        color:rgb(148, 148, 204);
+    }
+    .btn9:hover{
+        text-decoration: underline;
+    }
+
+    
+    
+    .button10{
+        position: absolute; top: 72px;left: 200px;
+        border: none;
+        font-size: small;
+        background-color:rgb(30, 30, 43);
+        color:rgb(148, 148, 204);
+    }
+    .btn10:hover{
+        text-decoration: underline;
+    }
+
+     
+    
+    .button11{
+        position: absolute; top: 72px;left: 330px;
+        border: none;
+        font-size: small;
+        background-color:rgb(30, 30, 43);
+        color:rgb(148, 148, 204);
+    }
+    .btn11:hover{
+        text-decoration: underline;
+    }
+
+    .button12{
+        position: absolute; top: 72px;left: 735px;
+        border: none;
+        font-size: small;
+        background-color:rgb(30, 30, 43);
+        color:rgb(148, 148, 204);
+    }
+    .btn12:hover{
+        text-decoration: underline;
+    }
+
+    

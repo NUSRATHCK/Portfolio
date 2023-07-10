@@ -1,0 +1,421 @@
+.header{
+    position: fixed;top: 0px;left: 0px;right: 0px;
+    height: 80px;
+    background-color: rgb(15, 43, 59);
+    margin: 0px;
+    z-index:100;
+}
+.tummocimage{
+    position: fixed; top:20px; left: 55px;
+    height:40px;
+    width: 160px;
+}
+.tummocimage:hover{
+    cursor: pointer;
+}
+.about{
+    position: fixed;top: 35px; left: 270px;
+    border:none;
+    background-color:rgb(15, 43, 59);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: white;
+}
+.about:hover{
+    color:rgb(222, 193, 117);
+    cursor: pointer;
+}
+.contact{
+    position: fixed;top: 35px; left: 400px;
+    border:none;
+    background-color:rgb(15, 43, 59);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: white;
+}
+.contact:hover{
+    color:rgb(222, 193, 117);
+    cursor: pointer;
+}
+.career{
+    position: fixed;top: 35px; left: 550px;
+    border:none;
+    background-color:rgb(15, 43, 59);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: white;
+}
+.career:hover{
+    color:rgb(222, 193, 117);
+    cursor: pointer;
+}
+.blog{
+    position: fixed;top: 35px; left: 692px;
+    border:none;
+    background-color:rgb(15, 43, 59);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: white;
+}
+.blog:hover{
+    color:rgb(222, 193, 117);
+    cursor: pointer;
+}
+.media{
+    position: fixed;top: 35px; left: 802px;
+    border:none;
+    background-color:rgb(15, 43, 59);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: white;
+}
+.media:hover{
+    color:rgb(222, 193, 117);
+    cursor: pointer;
+}
+.app{
+    height: 35px;
+    width: 33px;
+}
+.hover_app{
+    height: 38px;
+    width: 36px;
+}
+.img{
+    position: absolute;top: 25px; right: 265px;
+}
+.hover_app{
+    position: absolute;top: 0; left: 0;
+    display: none;
+}
+.img:hover .hover_app{
+    display: inline;
+    cursor: pointer;
+}
+.apple{
+    height:33px;
+    width:30px;
+}
+.hover_apple{
+    height:33px;
+    width:35px;
+}
+.img2{
+    position: absolute;top: 24px; right: 225px;
+}
+.hover_apple{
+    position: absolute;top: 0;left: 0;
+    display: none;
+}
+.img2:hover .hover_apple{
+    display: inline;
+    cursor: pointer;
+}
+.work{
+    height: 41px;
+    width: 195px;
+}
+.hover_work{
+    height: 44px;
+    width: 195px;
+}
+.img3{
+    position:absolute;top: 22px; right: 25px;
+}
+.hover_work{
+    position: absolute;top: 0;left: 0;
+    display: none;
+}
+.img3:hover .hover_work{
+    display: inline;
+    cursor: pointer;
+}
+.start{
+    position: absolute; top: 80px;
+    left: 0px; right: 0px;
+    height:536px;
+    width: 1520px;
+    background-color:rgb(15, 43, 59);
+}
+.heading{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:40px;
+    position:absolute;top: 120px; left: 130px;
+}
+.text{
+    position: absolute;top: 262px; left: 130px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.googleplay{
+    position: absolute;top: 365px; left: 130px;
+    height: 40px;
+    width: 140px;
+}
+.googleplay:hover{
+    cursor: pointer;
+}
+.appstore{
+    position: absolute;top: 365px; left: 280px;
+    height: 40px;
+    width: 140px;
+}
+.appstore:hover{
+    cursor: pointer;
+}
+.tummoc{
+    position: absolute;top: 10px; right: 205px;
+    height: 510px;
+    width: 400px;
+}
+.background{
+    position: absolute;top: 600px;left: 1px;
+    height: 600px;
+}
+.whytummoc{
+    position: absolute;top: 740px;left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(48, 48, 48);
+}
+.commute{
+    position: absolute;top: 830px;left: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.paragraph{
+    position: absolute;top: 870px;left: 80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.dots{
+    position: absolute;top: 1000px;left: 650px;
+}
+.whyimage{
+    position: absolute;top: 640px;right: 80px;
+    height: 480px;
+    width: 480px;
+}
+.happybird{
+    height:480px;
+    width:480px;
+    position: absolute;top: 100px; left: 900px;
+}
+.impact{
+    height:700px;
+    width:1519px;
+    position: absolute;top: 1100px; left: 00px;
+}
+.impactimg{
+    height:670px;
+    width:1519px;
+    position: absolute;top: 30px; left: 00px;
+}
+.flappybird{
+    position: absolute;top: 95px;left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.sadbird{
+    position: absolute;top: 185px;left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    color: rgb(255, 255, 255);
+}
+.pp{
+    position: absolute;top: 300px;left: 80px;
+    height:330px;
+    width: 660px;
+}
+.report{
+    position: absolute;top: 1800px;left: 60px;
+    height: 600px;
+    width: 1400px;
+}
+.reporttext{
+    position: absolute;top: 1890px;left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(20, 36, 67);
+}
+.card{
+    position: absolute;top: 2058px;left:190px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: rgb(46, 64, 101);
+}
+.saidby{
+    position: absolute;top: 2108px;left:190px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: rgb(30, 46, 78);
+}
+.back1{
+    position: absolute;top: 2280px; left: 200px;
+}
+.back1:hover{
+    cursor: pointer;
+}
+.next1{
+    position: absolute;top: 2287px; left: 265px;
+}
+.next1:hover{
+    cursor: pointer;
+}
+.nextbutton{
+    position: absolute;top: 2408px;left:127px;
+    height: 270px;
+    width: 1267px;
+    border-radius: 30px;
+    border-color: rgb(183, 182, 182);
+    box-shadow: 1px 1px 20px 1px rgb(158, 158, 158);
+}
+.textinbutton{
+    width: 490px;
+    position: absolute;top:20px;left: 80px;
+}
+.vote{
+    position: absolute;top:60px;left: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    text-align: left;
+}
+.vote1{
+    position: absolute;top:140px;left: 80px;
+    width: 250px;
+    height: 65px;
+}
+.hover_vote{
+    position: absolute;top:140px;left: 80px;
+    width: 250px;
+    height: 65px;
+    display: none;
+}
+.img4:hover .hover_vote{
+    display: inline;
+    cursor: pointer;
+}
+.birdimage{
+    position: absolute;right: 200px; top: 10px;
+    height: 250px;
+    width: 250px;
+}
+.partners{
+    position:absolute;top: 2772px;left: 570px;
+    width: 400px;
+    height: 45px;
+}
+.places{
+    position:absolute;top: 2860px;left: 200px;
+    height: 440px;
+}
+.street{
+    position: absolute;top: 3450px;left: 0;right: 0;
+    height: 650px;
+    background-color: rgb(210, 201, 31);
+}
+.word{
+    position:absolute;left: 120px;top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 44, 61);
+}
+.wordparagraph{
+    position:absolute;left: 117px;top: 200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(24, 44, 61);
+}
+.back{
+    position:absolute;left: 150px;top: 387px;
+    cursor: pointer;
+}
+.next{
+    position:absolute;left: 200px;top: 390px;
+    cursor: pointer;
+}
+.ad1{
+    position: absolute;bottom: 120px;right:500px;
+    height: 400px;
+}
+.ad1:hover{
+    cursor: pointer;
+}
+.ad2{
+    position: absolute;bottom: 120px;right:180px;
+    height: 400px;
+}
+.ad2:hover{
+    cursor: pointer;
+}
+.ad3{ position: absolute;bottom: 130px;right:0px;
+    height: 390px;
+}
+.ad3:hover{
+    cursor: pointer;
+}
+.endbutton{
+    width: 1220px;height: 200px;
+    position:absolute;top: 4012px;left: 160px;
+}
+.end{
+    background-color: rgb(13, 46, 58);
+    position: absolute;top:4100px ;left: 0;right:0;
+    height: 400px;
+}
+.endlogo{
+    position: absolute;top: 160px;left: 160px;
+}
+.endparagraph{
+    position: absolute;top: 220px;left: 160px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email{
+    position: absolute;top: 300px;left: 155px;
+    color: white;
+    background-color: rgb(13, 46, 58);
+    border: none;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ul1{
+    position: absolute;top: 150px;left: 750px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.l1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ul2{
+    position: absolute;top: 150px;left: 1000px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social{
+    position: inherit;bottom: 5px;left: 770px;
+    height: 40px;
+}
+.social:hover{
+    cursor: pointer;
+}
+.endcopyright{
+    position: inherit;bottom: 5px;right:90px;
+    color: white;
+    font-size: small;
+}
+.endup{
+    position: inherit;bottom: 5px;right:9px;
+    height: 60px;
+}
+.endup:hover{
+    cursor: pointer;
+}
